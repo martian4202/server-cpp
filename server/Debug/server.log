@@ -1,2 +1,6 @@
 ﻿  main.cpp
-  server.vcxproj -> E:\projects\cpp\server-cpp\Debug\server.exe
+  正在生成代码...
+  正在跳过...(未检测到相关更改)
+  Screen.cpp
+main.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall X::X(void)" (??0X@@QAE@XZ)，该符号在函数 _main 中被引用
+D:\xmac\projects\cpp\server\Debug\server.exe : fatal error LNK1120: 1 个无法解析的外部命令
