@@ -118,6 +118,7 @@
     <ClCompile Include="Screen.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="binary.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="sales_data.h" />
     <ClInclude Include="Screen.h" />

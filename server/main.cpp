@@ -1,15 +1,24 @@
 #include<iostream>
+#include<sstream>
+#include<fstream>
 
-#include "Screen.h"
 
 using namespace std;
 
 
 
 int main() {
-	Account ac1;
-	double r;
-	r = Account::rate();
-	r = ac1.rate();
+	int a = 10, b = 20;
+	int m = a ^ b;
+	int n = (a & b) << 1;
+	while (n != 0)
+	{
+		m = m ^ n;
+		n = (m & n) << 1;
+	}
+
+	cout << a << "+" << b << "= " << m;
+
+	system("Pause");
 }
 
