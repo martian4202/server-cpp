@@ -1,24 +1,19 @@
 #include<iostream>
 #include<sstream>
 #include<fstream>
+#include<algorithm>
+#include<xstddef>
 
 
 using namespace std;
 
 
-
 int main() {
-	int a = 10, b = 20;
-	int m = a ^ b;
-	int n = (a & b) << 1;
-	while (n != 0)
-	{
-		m = m ^ n;
-		n = (m & n) << 1;
-	}
+	less<int> l;
+	bool b = l(1, 2);
 
-	cout << a << "+" << b << "= " << m;
+	if (b)
+		cout << "1 < 2" << endl;
 
 	system("Pause");
 }
-
